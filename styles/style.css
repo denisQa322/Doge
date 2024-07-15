@@ -288,4 +288,20 @@ footer .footer-wrapper .footer-bottom .footer-socials .social a img {
   border-radius: 15px;
   border: 1px solid #d7bba0;
   padding: 5px;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+  cursor: pointer;
+  display: none;
+}
+.go-top img {
+  height: 100px;
+  width: 100px;
+}
+.go-top:active {
+  transform: scale(1.1);
+  transition: 0.2s;
 }/*# sourceMappingURL=style.css.map */

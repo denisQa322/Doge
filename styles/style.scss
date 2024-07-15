@@ -318,3 +318,18 @@ footer {
     }
   }
 }
+.go-top {
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+  cursor: pointer;
+  display: none;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  &:active {
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+}

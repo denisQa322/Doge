@@ -121,6 +121,10 @@
   footer .footer-wrapper .footer-bottom .footer-socials .social a img {
     padding: 5px;
   }
+  .go-top {
+    left: 0;
+    bottom: 80px;
+  }
 }
 @media only screen and (max-width: 430px) {
   header {
@@ -177,6 +181,7 @@
   }
   .gallery {
     width: 355px;
+    padding-bottom: 30px;
   }
   .gallery-header {
     font-size: 70px;
@@ -194,6 +199,15 @@
   }
   footer .footer-wrapper {
     width: 420px;
+  }
+  .go-top {
+    position: fixed;
+    left: -10px;
+    bottom: 80px;
+  }
+  .go-top img {
+    height: 60px;
+    width: 60px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -293,5 +307,14 @@
   }
   footer .footer-wrapper .footer-bottom .footer-socials {
     gap: 5px;
+  }
+  .go-top {
+    position: fixed;
+    left: -10px;
+    bottom: 95px;
+  }
+  .go-top img {
+    height: 60px;
+    width: 60px;
   }
 }/*# sourceMappingURL=media.css.map */

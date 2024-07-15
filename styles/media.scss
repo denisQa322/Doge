@@ -164,6 +164,10 @@
       }
     }
   }
+  .go-top {
+    left: 0;
+    bottom: 80px;
+  }
 }
 @media only screen and (max-width: 430px) {
   header {
@@ -238,6 +242,7 @@
   }
   .gallery {
     width: 355px;
+    padding-bottom: 30px;
     &-header {
       font-size: 70px;
     }
@@ -256,6 +261,15 @@
   footer {
     .footer-wrapper {
       width: 420px;
+    }
+  }
+  .go-top {
+    position: fixed;
+    left: -10px;
+    bottom: 80px;
+    img {
+      height: 60px;
+      width: 60px;
     }
   }
 }
@@ -399,6 +413,15 @@
           gap: 5px;
         }
       }
+    }
+  }
+  .go-top {
+    position: fixed;
+    left: -10px;
+    bottom: 95px;
+    img {
+      height: 60px;
+      width: 60px;
     }
   }
 }
