@@ -6,17 +6,18 @@
 }
 
 :root {
-  --blue-color: #efe4d9;
+  --blue-color: black;
   --container-width: 1140px;
 }
 
 body {
-  background-color: #d7bba0;
+  background-color: #fedfa9;
 }
 
 .buy-now {
   cursor: pointer;
   padding: 11px;
+  padding-top: 15px;
   font-size: 19px;
   border-radius: 15px;
   border: none;
@@ -39,6 +40,7 @@ header {
   .header-img {
     img {
       border-radius: 50%;
+      border: 3px solid black;
       width: 50px;
       height: 50px;
     }
@@ -48,6 +50,12 @@ header {
       align-items: center;
     }
   }
+}
+
+.first-screen-wrapper {
+  background-image: url("../images/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .first-screen {
@@ -75,11 +83,13 @@ header {
       align-items: center;
       justify-content: flex-start;
       .first-screen-text-button {
+        padding-top: 15px;
         margin-bottom: 15px;
         a {
           .buy-now {
             background-color: var(--blue-color);
-            padding: 11px;
+            font-size: 30px;
+            padding: 8px;
             height: 55px;
             color: #d7bba0;
           }
@@ -93,9 +103,9 @@ header {
           a {
             img {
               background-color: var(--blue-color);
-              width: 55px;
-              height: 55px;
-              padding: 10px;
+              width: 57px;
+              height: 57px;
+              padding: 9px;
               border-radius: 50%;
             }
           }
@@ -108,7 +118,7 @@ header {
       width: 473px;
       height: 473px;
       border-radius: 100px;
-      border: 3px solid var(--blue-color);
+      border: 5px solid #9f5d32;
     }
   }
 }
@@ -119,22 +129,21 @@ header {
   align-items: center;
   height: 100px;
   width: 100%;
-  background-color: #efe4d9;
+  background-color: #9f5d32;
   margin-bottom: 10px;
   .running-text {
     font-size: 50px;
-    color: #d7bba0;
+    color: #fedfa9;
   }
   .glow::before,
   glow::after {
     content: "";
     position: absolute;
-    left: -2px;
-    top: -10px;
-    background: #ffffff;
+    top: -8px;
+    background: black;
     background-size: 400%;
     width: 100%;
-    height: calc(100% + 20px);
+    height: calc(100% + 15px);
     z-index: -1;
     animation: animate 20s linear infinite;
   }
@@ -146,13 +155,13 @@ header {
   display: flex;
   gap: 15px;
   padding: 35px 0;
-  color: var(--blue-color);
+  color: #9f5d32;
   &-img {
     img {
       width: 500px;
       height: 500px;
       border-radius: 50%;
-      border: 3px solid var(--blue-color);
+      border: 5px solid #9f5d32;
     }
   }
   &-text {
@@ -168,15 +177,19 @@ header {
       a {
         .buy-now {
           background-color: var(--blue-color);
-          color: #d7bba0;
+          background-color: #fedfa9;
+          border: 3px solid black;
+          color: black;
           padding: 8px;
+          padding-top: 13px;
         }
       }
       a {
         img {
+          border: 3px solid black;
           padding: 11px;
           border-radius: 15px;
-          background-color: var(--blue-color);
+          background-color: #fedfa9;
         }
       }
     }
@@ -200,7 +213,7 @@ header {
         img {
           width: 220px;
           height: 220px;
-          border: 3px solid #d7bba0;
+          border: 5px solid #d7bba0;
           border-radius: 50%;
         }
       }
@@ -226,7 +239,7 @@ header {
     font-size: 40px;
   }
   &-images {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     width: 940px;
     margin: auto;
     display: grid;
@@ -241,7 +254,6 @@ header {
     }
   }
 }
-
 .carousel {
   display: none;
 }
@@ -278,6 +290,7 @@ footer {
           .buy-now {
             font-size: 15px;
             padding: 6px;
+            padding-top: 11px;
             background-color: #d7bba0;
             color: var(--blue-color);
           }

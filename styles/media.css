@@ -137,6 +137,9 @@
   .first-screen-text .first-screen-buttons {
     justify-content: center;
   }
+  .first-screen-text .first-screen-buttons .first-screen-text-button a .buy-now {
+    font-size: 25px;
+  }
   .first-screen-text .first-screen-buttons .socials {
     display: flex;
     justify-content: center;
@@ -201,6 +204,9 @@
     flex-direction: column;
     text-align: center;
     width: 355px;
+  }
+  .first-screen-text .first-screen-buttons .first-screen-text-button a .buy-now {
+    font-size: 20px;
   }
   .first-screen-img img {
     width: 335px;
