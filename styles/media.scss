@@ -256,6 +256,14 @@
     .carousel {
       display: block;
       margin-bottom: 15px;
+      &-inner {
+        .carousel-item {
+          img {
+            width: 355px;
+            height: 355px;
+          }
+        }
+      }
     }
   }
   footer {

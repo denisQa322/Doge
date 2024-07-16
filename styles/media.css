@@ -197,6 +197,10 @@
     display: block;
     margin-bottom: 15px;
   }
+  .gallery .carousel-inner .carousel-item img {
+    width: 355px;
+    height: 355px;
+  }
   footer .footer-wrapper {
     width: 420px;
   }

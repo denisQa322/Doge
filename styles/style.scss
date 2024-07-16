@@ -20,9 +20,9 @@ body {
   padding-top: 15px;
   font-size: 19px;
   border-radius: 15px;
-  border: none;
-  color: #d7bba0;
-  background-color: var(--blue-color);
+  border: 3px solid var(--blue-color);
+  color: var(--blue-color);
+  background-color: #fedfa9;
   &:active {
     transform: scale(1.1);
     transition: 0.4s;
@@ -53,7 +53,7 @@ header {
 }
 
 .first-screen-wrapper {
-  background-image: url("../images/image.png");
+  background-image: url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -281,7 +281,7 @@ footer {
         img {
           width: 40px;
           height: 40px;
-          border: 2px solid #d7bba0;
+          border: 3px solid #d7bba0;
           border-radius: 50%;
         }
       }
@@ -291,8 +291,9 @@ footer {
             font-size: 15px;
             padding: 6px;
             padding-top: 11px;
-            background-color: #d7bba0;
-            color: var(--blue-color);
+            border: 3px solid #d7bba0;
+            background-color: var(--blue-color);
+            color: #d7bba0;
           }
         }
       }
@@ -309,7 +310,7 @@ footer {
               width: 35px;
               height: 35px;
               border-radius: 15px;
-              border: 1px solid #d7bba0;
+              border: 3px solid #d7bba0;
               padding: 5px;
             }
           }
